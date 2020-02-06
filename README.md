@@ -14,11 +14,18 @@ Coverage Report
 `go test -coverprofile cover.out`
 `go tool cover -html=cover.out -o cover.html`
 
+# 00
+Download and install Go (https://golang.org/dl/)
+Hello Atelier! in Go
+
 # 01 
 Testing a single function
-Adding functionality
 Running a coverage report
-Adding missing tests
+Adding a missing tests
+Run coverage again
+Add test for lower case name
+Fix the code
+
 
 # 02 
 Test Driven Development

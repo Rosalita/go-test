@@ -4,11 +4,14 @@ import (
 	"fmt"
 )
 
-func main() {
-	fmt.Println(Greet("Everyone"))
-}
+func main() {}
 
-func Greet(name string) string{
-	return fmt.Sprintf("Hello %s!", name)
-}
+func greet(name string) string {
+	switch name {
+	case "Rosie":
+		return fmt.Sprintf("Hey %s, you rock!", name)
 
+	default:
+		return fmt.Sprintf("Hello %s!", name)
+	}
+}
